@@ -50,8 +50,6 @@ plugins:
       enabled: true
       skipInitialization: false
     clients:
-      - MUSIC
-      - WEB_REMIX
       - TVHTML5EMBEDDED
       - ANDROID_VR
       - WEB
