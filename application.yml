@@ -48,8 +48,7 @@ plugins:
     allowDirectPlaylistIds: true
     oauth:
       enabled: true
-      refreshToken: "1//06pUI_TI2tWzkCgYIARAAGAYSNwF-L9Ir6wBPCQ2WvuSgIRePkKlc68v15xWYYmxxvhuP2RzNtOVJ2ieUNz258hO8Yybkut8Q9Ac"
-      skipInitialization: true
+      skipInitialization: false
     clients:
       - TVHTML5EMBEDDED
       - MUSIC
