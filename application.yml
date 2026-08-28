@@ -55,7 +55,6 @@ plugins:
       - ANDROID_VR
       - WEB
       - IOS
-
   lavasrc:
     providers:
       - "ytsearch:\"%ISRC%\""
