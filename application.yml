@@ -50,11 +50,11 @@ plugins:
       enabled: true
       skipInitialization: false
     clients:
-      - TVHTML5EMBEDDED
       - MUSIC
+      - WEB_REMIX
+      - TVHTML5EMBEDDED
       - ANDROID_VR
       - WEB
-      - IOS
   lavasrc:
     providers:
       - "ytsearch:\"%ISRC%\""
