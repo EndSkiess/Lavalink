@@ -46,12 +46,16 @@ plugins:
     allowSearch: true
     allowDirectVideoIds: true
     allowDirectPlaylistIds: true
+    oauth:
+      enabled: true
+      skipInitialization: false
     clients:
+      - TVHTML5EMBEDDED
       - MUSIC
       - ANDROID_VR
       - WEB
-      - ANDROID
-      - TVHTML5EMBEDDED
+      - IOS
+
   lavasrc:
     providers:
       - "ytsearch:\"%ISRC%\""
